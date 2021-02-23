@@ -69,7 +69,7 @@ const Rating = ({ value, text, color }: RatingProps) => {
           }
         ></i>
       </span>
-      <span>{text && text}</span>
+      {text && text}
     </div>
   );
 };
