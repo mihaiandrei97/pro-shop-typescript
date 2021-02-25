@@ -3,10 +3,10 @@ import React from 'react';
 interface RatingProps {
   value: number;
   text: string;
-  color: string;
+  color?: string;
 }
 
-const Rating = ({ value, text, color }: RatingProps) => {
+const Rating = ({ value, text, color = '#f8e825' }: RatingProps) => {
   return (
     <div className="rating">
       <span>
@@ -72,10 +72,6 @@ const Rating = ({ value, text, color }: RatingProps) => {
       {text && text}
     </div>
   );
-};
-
-Rating.defaultProps = {
-  color: '#f8e825',
 };
 
 export default Rating;

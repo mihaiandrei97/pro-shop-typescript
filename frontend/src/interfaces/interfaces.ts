@@ -11,4 +11,4 @@ interface ProductType {
   numReviews: number;
 }
 
-export default ProductType;
+export type { ProductType };

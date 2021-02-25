@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import ProductType from '../interfaces/interfaces';
+import { ProductType } from '../interfaces/interfaces';
 import Rating from './Rating';
 import { Link } from 'react-router-dom';
 
