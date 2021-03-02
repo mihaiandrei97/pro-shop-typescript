@@ -9,11 +9,15 @@
     "server": "nodemon backend/server.ts",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "data:import": "ts-node backend/seeder.ts",
+    "data:destroy": "ts-node backend/seeder.ts -d"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
     "colorts": "^0.1.63",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

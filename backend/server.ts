@@ -19,8 +19,8 @@ app.get('/api/products', (req: Request, res: Response) => {
 });
 
 app.get('/api/products/:id', (req: Request, res: Response) => {
-  const product = products.find((p) => p._id === req.params.id);
-  res.json(product);
+  //const product = products.find((p) => p._id === req.params.id);
+  //res.json(product);
 });
 
 const PORT = process.env.PORT || 5000;
