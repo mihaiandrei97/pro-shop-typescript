@@ -1,1 +1,1 @@
-Project done by with Typescript by following Brad Traversy's udemy course
+Project done with Typescript by following Brad Traversy's udemy course
